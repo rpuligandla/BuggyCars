@@ -2,10 +2,10 @@ import * as profileSection from './profileSection.js'
 describe('Profile', () => {
   
   beforeEach(() => {
-    cy.fixture('testData.json').then(function(testData){
+    cy.fixture('testUserData.json').then(function(testData){
       this.testData = testData
     })
-    cy.fixture('testData.json').then(function(testData){
+    cy.fixture('testUserData.json').then(function(testData){
       cy.login(this.testData.testLoginData.username, this.testData.testLoginData.password)
       const greeting = 'Hi, ' + this.testData.testProfileData.firstname
       cy.contains(greeting)
@@ -20,7 +20,7 @@ describe('Profile', () => {
   })
 
   it('Verify basic user info can be found under user profile', () => {
-    cy.fixture('testData.json').then(function(testData){
+    cy.fixture('testUserData.json').then(function(testData){
       profileSection.getUsername().should('have.value', testData.testProfileData.username)
       profileSection.getFirstname().should('have.value', testData.testProfileData.firstname)
       profileSection.getLastname().should('have.value', testData.testProfileData.lastname)

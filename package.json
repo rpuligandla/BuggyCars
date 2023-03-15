@@ -1,0 +1,23 @@
+{
+  "name": "buggy-cars",
+  "version": "1.0.0",
+  "description": "Project for Buggy Cars Rating",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpuligandla/BuggyCars.git"
+  },
+  "author": "Ranjeeth Puligandla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpuligandla/BuggyCars/issues"
+  },
+  "homepage": "https://github.com/rpuligandla/BuggyCars#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^12.7.0"
+  }
+}

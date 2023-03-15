@@ -1,0 +1,12 @@
+{
+  "testLoginData": {
+    "username": "testname163358",
+    "password": "Asdf@123"
+  },
+  "testProfileData": {
+    "username": "testname163358",
+    "password": "Asdf@123",
+    "firstname": "testname163358",
+    "lastname": "testname163358"
+  }
+}
