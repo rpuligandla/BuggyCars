@@ -4,14 +4,16 @@
 
 The types of the testing for the project is conducted as below,
 
-1. Exploratory Test
+1. Exploratory Test <br>
+   Upon test conpletion bugs/defects are recorded here, click -> 
+[Defects](https://github.com/rpuligandla/BuggyCars/blob/master/Defects.xlsx)
 2. Automation Test
 
 ## Buggy Cars Rating Automated End-to-End tests
 
 These tests are end-to-end tests for [Buggy Cars Rating](https://buggy.justtestit.org/) using [Cypress](https://www.cypress.io/) and JavaScript as programming language.
 
-### Prerequisites
+### Prerequisites to run the tests locally
 1. Install [node](https://nodejs.org/en/download/) based on your OS
 2. Download Visual Studio (VS) Code or any IDE as your preference
 3. Install Cypress <br>
@@ -24,13 +26,13 @@ npm install cypress --save-dev
 git clone git@github.com:rpuligandla/BuggyCars.git
 ``
 
-### How to run tests
-#### To run all tests execute  command in terminal <br>
+### How to run tests locally
+#### To run all the tests at once, run this command in terminal <br>
 ``
 npx cypress run
 ``
 
-#### How to run tests using Cypress UI
+#### To run tests using Cypress UI
 1. Execute  command in terminal <br>
 ``
 npx cypress open
