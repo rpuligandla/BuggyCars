@@ -16,14 +16,18 @@ These tests are end-to-end tests for [Buggy Cars Rating](https://buggy.justtesti
 ### Prerequisites to run the tests locally
 1. Install [node](https://nodejs.org/en/download/) based on your OS
 2. Download Visual Studio (VS) Code or any IDE as your preference
-3. Install Cypress <br>
+3. Install Cypress (I have used 12.7.0 version) <br>
 ``
-npm install cypress --save-dev
+   npm install cypress --save-dev
 ``
 4. Clone or download the repo from github<br>
     https://github.com/rpuligandla/BuggyCars.git <br>
+Note: install git if not installed already<br>
 ``
 git clone git@github.com:rpuligandla/BuggyCars.git
+``<br>or<br>
+``
+git clone https://github.com/rpuligandla/BuggyCars.git
 ``
 
 ### How to run tests locally
